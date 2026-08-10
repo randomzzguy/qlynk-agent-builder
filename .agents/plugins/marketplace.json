@@ -1,0 +1,20 @@
+{
+  "name": "qlynk",
+  "interface": {
+    "displayName": "Qlynk"
+  },
+  "plugins": [
+    {
+      "name": "qlynk-agent-builder",
+      "source": {
+        "source": "local",
+        "path": "./plugins/qlynk-agent-builder"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

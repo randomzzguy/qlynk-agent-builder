@@ -1,0 +1,42 @@
+{
+  "name": "qlynk-agent-builder",
+  "version": "1.0.0",
+  "description": "Interview a client, build and test a verified Qlynk Agent, and prepare a client-owned handoff.",
+  "author": {
+    "name": "Qlynk AI",
+    "email": "info@qlynk.site",
+    "url": "https://www.qlynk.site"
+  },
+  "homepage": "https://www.qlynk.site/agent-builder",
+  "repository": "https://github.com/randomzzguy/qlynk-agent-builder",
+  "keywords": [
+    "qlynk",
+    "ai-agent",
+    "freelancer",
+    "client-onboarding",
+    "knowledge-base"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Qlynk Agent Builder",
+    "shortDescription": "Build verified Qlynk Agents for clients",
+    "longDescription": "Run a fast or advanced client interview, map approved information into Qlynk fields, create a complete Build Pack, test the agent, and hand ownership and billing to the client.",
+    "developerName": "Qlynk AI",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.qlynk.site/agent-builder",
+    "privacyPolicyURL": "https://www.qlynk.site/privacy",
+    "termsOfServiceURL": "https://www.qlynk.site/terms",
+    "defaultPrompt": [
+      "Interview this client and build their Qlynk Agent.",
+      "Turn these company documents into a Qlynk Build Pack.",
+      "Test and prepare this Qlynk Agent for handoff."
+    ],
+    "brandColor": "#F46530",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg"
+  }
+}

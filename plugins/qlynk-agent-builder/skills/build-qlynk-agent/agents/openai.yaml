@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build a Qlynk Agent"
+  short_description: "Interview, build, test, and hand off Qlynk agents"
+  default_prompt: "Use $build-qlynk-agent to interview this client and create a complete, verified Qlynk Agent setup."
