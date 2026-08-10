@@ -1,6 +1,6 @@
 {
   "name": "qlynk-agent-builder",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Interview a client, build and test a verified Qlynk Agent, and prepare a client-owned handoff.",
   "author": {
     "name": "Qlynk AI",

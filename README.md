@@ -13,7 +13,7 @@ The Qlynk Agent Builder interviews a client, turns approved company information 
 
 The client should own the Qlynk account, recovery email, source files, billing, and final approval. The freelancer charges separately for discovery, setup, testing, embedding, and optional maintenance.
 
-## Install as a plugin
+## Install in Codex
 
 Add this repository as a marketplace and install the plugin:
 
@@ -28,14 +28,31 @@ Start a new Codex session after installation, then use:
 Use $build-qlynk-agent to build a Qlynk Agent for my client.
 ```
 
+## Install in Claude Code
+
+Add this repository as a Claude marketplace and install the plugin:
+
+```text
+claude plugin marketplace add randomzzguy/qlynk-agent-builder
+claude plugin install qlynk-agent-builder@qlynk
+```
+
+Reload plugins if Claude requests it, then use:
+
+```text
+/qlynk-agent-builder:build-qlynk-agent
+```
+
 ## Install the standalone skill
 
-Copy `standalone/build-qlynk-agent` to:
+Copy `standalone/build-qlynk-agent` to the appropriate platform path:
 
-- Personal: `$HOME/.agents/skills/build-qlynk-agent`
-- Repository: `<repository>/.agents/skills/build-qlynk-agent`
+- Codex personal: `$HOME/.agents/skills/build-qlynk-agent`
+- Codex repository: `<repository>/.agents/skills/build-qlynk-agent`
+- Claude personal: `$HOME/.claude/skills/build-qlynk-agent`
+- Claude repository: `<repository>/.claude/skills/build-qlynk-agent`
 
-Restart Codex if the skill does not appear. In Codex CLI or the IDE extension, use `/skills` or type `$` to select it.
+Restart or reload the relevant agent if the skill does not appear.
 
 ## What it produces
 
