@@ -1,6 +1,6 @@
 {
   "name": "qlynk-agent-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interview a client, build and test a verified Qlynk Agent, and prepare a client-owned handoff.",
   "author": {
     "name": "Qlynk AI",
@@ -9,6 +9,7 @@
   },
   "homepage": "https://www.qlynk.site/agent-builder",
   "repository": "https://github.com/randomzzguy/qlynk-agent-builder",
+  "license": "MIT",
   "keywords": [
     "qlynk",
     "ai-agent",

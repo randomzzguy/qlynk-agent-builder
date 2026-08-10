@@ -65,4 +65,6 @@ The workflow never treats an AI draft as a verified client fact. Prices, policie
 - Terms: https://www.qlynk.site/terms
 - Support: info@qlynk.site
 
-Copyright Qlynk AI. Public licensing terms will be added before third-party redistribution is formally opened.
+## License
+
+MIT License. See [LICENSE](./LICENSE).
