@@ -1,0 +1,15 @@
+{
+  "name": "qlynk",
+  "owner": {
+    "name": "Qlynk AI",
+    "email": "info@qlynk.site"
+  },
+  "plugins": [
+    {
+      "name": "qlynk-agent-builder",
+      "source": "./plugins/qlynk-agent-builder",
+      "description": "Interview clients and build verified Qlynk Agents.",
+      "category": "productivity"
+    }
+  ]
+}
