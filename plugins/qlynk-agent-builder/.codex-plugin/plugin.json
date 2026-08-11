@@ -1,6 +1,6 @@
 {
   "name": "qlynk-agent-builder",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Interview a client, build and test a verified Qlynk Agent, and prepare a client-owned handoff.",
   "author": {
     "name": "Qlynk AI",
@@ -36,8 +36,8 @@
       "Test and prepare this Qlynk Agent for handoff."
     ],
     "brandColor": "#F46530",
-    "composerIcon": "./assets/icon.svg",
-    "logo": "./assets/logo.svg",
-    "logoDark": "./assets/logo-dark.svg"
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
   }
 }
