@@ -1,5 +1,6 @@
 {
   "name": "qlynk",
+  "description": "Qlynk plugins for building and maintaining accurate, client-owned AI agents.",
   "owner": {
     "name": "Qlynk AI",
     "email": "info@qlynk.site"
@@ -8,7 +9,7 @@
     {
       "name": "qlynk-agent-builder",
       "source": "./plugins/qlynk-agent-builder",
-      "description": "Interview clients and build verified Qlynk Agents.",
+      "description": "Interview clients, turn approved business knowledge into a tested Qlynk Agent, and prepare a client-owned handoff.",
       "category": "productivity"
     }
   ]
