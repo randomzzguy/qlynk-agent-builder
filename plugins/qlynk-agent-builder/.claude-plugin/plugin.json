@@ -1,7 +1,8 @@
 {
   "name": "qlynk-agent-builder",
-  "version": "1.1.1",
-  "description": "Interview clients and build verified Qlynk Agents.",
+  "displayName": "Qlynk Agent Builder",
+  "version": "1.1.2",
+  "description": "Interview clients, turn approved business knowledge into a tested Qlynk Agent, and prepare a client-owned handoff.",
   "author": {
     "name": "Qlynk AI",
     "email": "info@qlynk.site",
@@ -16,5 +17,10 @@
     "freelancer",
     "client-onboarding",
     "knowledge-base"
-  ]
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://www.qlynk.site/agent-builder",
+  "supportUrl": "https://github.com/randomzzguy/qlynk-agent-builder/issues",
+  "privacyPolicyUrl": "https://www.qlynk.site/privacy",
+  "termsOfServiceUrl": "https://www.qlynk.site/terms"
 }
