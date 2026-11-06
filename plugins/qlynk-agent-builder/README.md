@@ -54,6 +54,10 @@ It may process business information and contact details that the user intentiona
 
 The plugin does not independently store information. If the user explicitly asks Claude to enter approved content into Qlynk through an authorized browser session, that content is handled according to the [Qlynk Privacy Policy](https://www.qlynk.site/privacy). Publishing, billing changes, and live website installation require confirmation.
 
+## Reviewer testing
+
+No Qlynk account, API key, external connector, browser session, or network access is required to test the Quick interview, Advanced interview, Build Pack, knowledge review, launch-test generation, or handoff workflow. A reviewer can run any example prompt above and stop before optional live entry. The plugin cannot publish, change billing, or install website code on its own.
+
 ## Ownership
 
 The client should control the Qlynk account email, account recovery, billing, source files, public username, and final approval. Freelancers may charge separately for discovery, configuration, testing, installation, training, and maintenance.

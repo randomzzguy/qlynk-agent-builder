@@ -1,7 +1,7 @@
 {
   "name": "qlynk-agent-builder",
   "displayName": "Qlynk Agent Builder",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Interview clients, turn approved business knowledge into a tested Qlynk Agent, and prepare a client-owned handoff.",
   "author": {
     "name": "Qlynk AI",
